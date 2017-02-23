@@ -1,0 +1,73 @@
+<?php
+
+macro {
+    ¼
+} >> {
+    (1/4)
+}
+
+macro {
+    ¾
+} >> {
+    (3/4)
+}
+
+macro {
+    ⅓
+} >> {
+    (1/3)
+}
+
+macro {
+    ⅔
+} >> {
+    (2/3)
+}
+
+macro {
+    ½
+} >> {
+    (1/2)
+}
+
+macro {
+    T_VARIABLE·variable
+} >> {
+    ··six_arrow(T_VARIABLE·variable)
+}
+
+macro {
+    ⇒
+} >> {
+    =>
+}
+
+macro {
+    ⇔
+} >> {
+    <=>
+}
+
+macro {
+    ≈
+} >> {
+    ==
+}
+
+macro {
+    ≡
+} >> {
+    ===
+}
+
+macro {
+    ≤
+} >> {
+    <=
+}
+
+macro {
+    ≥
+} >> {
+    >=
+}
