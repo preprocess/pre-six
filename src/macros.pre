@@ -31,9 +31,9 @@ macro {
 }
 
 macro {
-    T_VARIABLE·variable
+    ·rtoken("/→/")·expression
 } >> {
-    ··six_arrow(T_VARIABLE·variable)
+    ··six_arrow(·expression)
 }
 
 macro {
@@ -70,4 +70,11 @@ macro {
     ≥
 } >> {
     >=
+}
+
+macro {
+   💩
+}
+>> {
+    throw new
 }
