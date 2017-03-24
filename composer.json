@@ -2,8 +2,7 @@
     "name": "pre/six",
     "license": "MIT",
     "require": {
-        "php": "^7.0",
-        "pre/plugin": "^0.5"
+        "pre/plugin": "^0.6"
     },
     "autoload": {
         "files": [
@@ -18,7 +17,5 @@
         "psr-4": {
             "Pre\\Six\\": "tests"
         }
-    },
-    "minimum-stability": "dev",
-    "prefer-stable": true
+    }
 }
