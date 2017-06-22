@@ -2,10 +2,11 @@
 
 namespace Yay\DSL\Expanders;
 
+use Yay\Engine;
 use Yay\Token;
 use Yay\TokenStream;
 
-function six_arrow($stream): TokenStream
+function six_arrow(TokenStream $stream, Engine $engine): TokenStream
 {
     $current = $stream->current();
 

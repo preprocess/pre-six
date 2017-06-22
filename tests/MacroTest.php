@@ -2,9 +2,9 @@
 
 namespace Pre\Six;
 
-use Pre\Testing\Runner;
+use Pre\Plugin\Testing\Runner;
 
-class SpecTest extends Runner
+class MacroTest extends Runner
 {
     protected function path(): string
     {
