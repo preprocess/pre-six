@@ -1,9 +1,3 @@
---DESCRIPTION--
-
-Test six macros
-
---GIVEN--
-
 ¼ + ¾ + ⅓ + ⅔ + ½
 
 $this→foo()
@@ -24,7 +18,7 @@ $this→foo()
 
 💩 InvalidArgumentException
 
---EXPECT--
+~~~
 
 (1/4) + (3/4) + (1/3) + (2/3) + (1/2)
 
