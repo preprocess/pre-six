@@ -2,14 +2,8 @@
     "type": "pre-macro",
     "name": "pre/six",
     "license": "MIT",
-    "repositories": [
-        {
-            "type": "path",
-            "url": "../pre-plugin"
-        }
-    ],
     "require": {
-        "pre/plugin": "*"
+        "pre/plugin": "^0.10.0"
     },
     "autoload": {
         "files": ["source/expanders.php"]
@@ -19,7 +13,5 @@
     },
     "extra": {
         "macros": ["source/macros.yay"]
-    },
-    "minimum-stability": "dev",
-    "prefer-stable": true
+    }
 }
